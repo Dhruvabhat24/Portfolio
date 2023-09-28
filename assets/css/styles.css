@@ -341,6 +341,25 @@ textarea {
         padding: 3rem; } }
   .contact__form-field {
     margin-bottom: 4rem; }
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+      }
+      
+      .address, .email {
+        width: 45%;
+      }
+      
+      h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      p {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
     @media only screen and (max-width: 37.5em) {
       .contact__form-field {
         margin-bottom: 3rem; } }
